@@ -1,0 +1,377 @@
+{
+  "team": {
+    "short": "Patriots"
+  },
+  "roster": [
+    {
+      "num": 1,
+      "name": "Tomáš Vokurka",
+      "pos": "TE"
+    },
+    {
+      "num": 2,
+      "name": "Jakub Mathauser",
+      "pos": "RB",
+      "rookie": true
+    },
+    {
+      "num": 3,
+      "name": "Jonáš Beneš",
+      "pos": "QB"
+    },
+    {
+      "num": 4,
+      "name": "Jakub Brejcha",
+      "pos": "FS"
+    },
+    {
+      "num": 5,
+      "name": "David Hlaváček",
+      "pos": "WR"
+    },
+    {
+      "num": 7,
+      "name": "Robert Chroustovský",
+      "pos": "CB"
+    },
+    {
+      "num": 9,
+      "name": "Václav Šedivý",
+      "pos": "CB"
+    },
+    {
+      "num": 11,
+      "name": "Patrik Vainer",
+      "pos": "QB"
+    },
+    {
+      "num": 12,
+      "name": "Griffin Smith",
+      "pos": "CB"
+    },
+    {
+      "num": 14,
+      "name": "Oliver Slavík",
+      "pos": "FS"
+    },
+    {
+      "num": 15,
+      "name": "Tomáš Chadraba",
+      "pos": "FS"
+    },
+    {
+      "num": 16,
+      "name": "David Krása",
+      "pos": "TE"
+    },
+    {
+      "num": 17,
+      "name": "David Kaňok",
+      "pos": "CB"
+    },
+    {
+      "num": 18,
+      "name": "Matěj Urban",
+      "pos": "WR"
+    },
+    {
+      "num": 19,
+      "name": "Jakub Krasa",
+      "pos": "FS"
+    },
+    {
+      "num": 22,
+      "name": "Josef Drmal",
+      "pos": "WR"
+    },
+    {
+      "num": 23,
+      "name": "Adam Heller",
+      "pos": "K"
+    },
+    {
+      "num": 24,
+      "name": "Charles Arnold",
+      "pos": "RB"
+    },
+    {
+      "num": 26,
+      "name": "Vratislav Novák",
+      "pos": "LB"
+    },
+    {
+      "num": 28,
+      "name": "Matej Roan Gregorík",
+      "pos": "CB",
+      "rookie": true
+    },
+    {
+      "num": 29,
+      "name": "Josef Legát",
+      "pos": "SS"
+    },
+    {
+      "num": 30,
+      "name": "Jonáš Novák",
+      "pos": "RB",
+      "rookie": true
+    },
+    {
+      "num": 32,
+      "name": "Daniel Vokurka",
+      "pos": "DE"
+    },
+    {
+      "num": 33,
+      "name": "Eric Coale",
+      "pos": "DB",
+      "rookie": true
+    },
+    {
+      "num": 34,
+      "name": "Ondřej Němec",
+      "pos": "RB",
+      "rookie": true
+    },
+    {
+      "num": 44,
+      "name": "Gerald Raab",
+      "pos": "LB"
+    },
+    {
+      "num": 50,
+      "name": "Uriel Zizumbo",
+      "pos": "OL"
+    },
+    {
+      "num": 52,
+      "name": "Jan Čapek",
+      "pos": "OL"
+    },
+    {
+      "num": 54,
+      "name": "Jakub Juraj Pažický",
+      "pos": "LB"
+    },
+    {
+      "num": 60,
+      "name": "Tuan Nguyen",
+      "pos": "OL"
+    },
+    {
+      "num": 63,
+      "name": "Tomáš Hájek",
+      "pos": "DT"
+    },
+    {
+      "num": 64,
+      "name": "Tomáš Michalec",
+      "pos": "OL"
+    },
+    {
+      "num": 68,
+      "name": "Petr Černohorský",
+      "pos": "DT"
+    },
+    {
+      "num": 69,
+      "name": "Martin Holek",
+      "pos": "DT"
+    },
+    {
+      "num": 71,
+      "name": "Martin Dušek",
+      "pos": "OL"
+    },
+    {
+      "num": 72,
+      "name": "Martin Partha",
+      "pos": "OL"
+    },
+    {
+      "num": 73,
+      "name": "Štepán Křížek",
+      "pos": "LB"
+    },
+    {
+      "num": 74,
+      "name": "Matěj Putík",
+      "pos": "DT"
+    },
+    {
+      "num": 77,
+      "name": "Oliver Slezák",
+      "pos": "OL"
+    },
+    {
+      "num": 80,
+      "name": "Jiří Urban",
+      "pos": "DE"
+    },
+    {
+      "num": 82,
+      "name": "Matěj Šlehofer",
+      "pos": "WR"
+    },
+    {
+      "num": 83,
+      "name": "Petr Zapletal",
+      "pos": "WR"
+    },
+    {
+      "num": 85,
+      "name": "Stanislav Bicán",
+      "pos": "DE"
+    },
+    {
+      "num": 87,
+      "name": "Bruno Svatuška",
+      "pos": "DE"
+    },
+    {
+      "num": 90,
+      "name": "Michael Bárta",
+      "pos": "DE"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "tag": "GAME RECAP",
+      "title": "Gladiators close out Patriots 52-0 in season finale",
+      "ago": "2d",
+      "accent": "navy",
+      "body": "Division champions Vysočina were too much in the Bukovec finale, handing Pilsen a 52-0 loss to end the 2026 regular season. The Patriots finish 2-8, sixth in the Snapbacks Liga."
+    },
+    {
+      "id": 2,
+      "tag": "SEASON",
+      "title": "2026 wrap: a young roster takes its lumps",
+      "ago": "1d",
+      "accent": "red",
+      "body": "Pilsen close the year at 2-8 with wins over Brno Sígrs and Ostrava. Five rookies logged significant snaps — a foundation to build on heading into the offseason."
+    },
+    {
+      "id": 3,
+      "tag": "COMMUNITY",
+      "title": "Youth camp registration opens this Monday",
+      "ago": "5d",
+      "accent": "navy",
+      "body": "Two summer youth camps return to Bukovec this July — U12 flag and U15 tackle. Spots are limited and last year's sessions sold out within a week. Registration goes live Monday morning at pilsenpatriots.cz/nabor."
+    },
+    {
+      "id": 4,
+      "tag": "INJURY",
+      "title": "WR Dvořák cleared to return for the Knights matchup",
+      "ago": "3d",
+      "accent": "navy",
+      "body": "Wide receiver Marek Dvořák has been fully cleared by team medical staff and will be available for Saturday's game. He's expected to slot back into the rotation alongside Šlehofer, Hlaváček, and Urban."
+    },
+    {
+      "id": 5,
+      "tag": "PLAYER",
+      "title": "Šlehofer leads team in receiving despite playing only 4 games",
+      "ago": "1w",
+      "accent": "red",
+      "body": "Matěj Šlehofer has racked up 275 receiving yards and 4 touchdowns in just four games — the most on the team. His 124-yard performance at Přerov in Week 1 remains the team's single-game receiving high."
+    },
+    {
+      "id": 6,
+      "tag": "COACHING",
+      "title": "Head Coach Levi Sturgis on the rebuild season",
+      "ago": "2w",
+      "accent": "navy",
+      "body": "In a sit-down interview, head coach William Levi Sturgis discussed the team's 2-7 season, the influx of five rookies, and his expectations heading into the finale. \"We're a young team that's learning to finish games.\""
+    }
+  ],
+  "gameRecaps": {
+    "1": {
+      "headline": "Mammoths edge Patriots in shootout opener",
+      "body": "A back-and-forth season opener that came down to the final drive. Vainer threw four touchdown passes and 257 yards but Přerov answered with a late score to win 35-34. Šlehofer led receivers with 124 yards on 7 catches."
+    },
+    "2": {
+      "headline": "Knights overwhelm Patriots at home",
+      "body": "Znojmo's passing attack carved up the defense for 297 yards and 6 touchdowns. The Patriots managed just 91 passing yards and turned the ball over four times. A reset week is coming."
+    },
+    "3": {
+      "headline": "Arnold runs over Sígrs for first win",
+      "body": "Charles Arnold piled up 105 rushing yards and the defense forced three turnovers in a hard-fought 25-24 road win. Vainer added three touchdown passes through the air."
+    },
+    "5": {
+      "headline": "Gladiators roll Patriots in Jihlava",
+      "body": "Vysočina's ground game went off for 328 rushing yards. The Patriots offense was held to 45 passing yards and never found a rhythm."
+    },
+    "6": {
+      "headline": "Defense battles but offense stalls",
+      "body": "Adam Heller's 50-yard field goal was the only score of the day for Pilsen. The Mammoths' ground attack ate clock and the defense couldn't get off the field on third down."
+    },
+    "7": {
+      "headline": "Patriots grind out road win over Steelers",
+      "body": "Vainer threw for 218 yards and Arnold rushed for 82 with two scores. The defense added two interceptions in a complete team win — the second of the season."
+    },
+    "8": {
+      "headline": "Knights pull away from Patriots",
+      "body": "A tight first half gave way to a Nitra surge in the third quarter. The Patriots offense managed just 159 total yards. Slavík forced two takeaways but the offense couldn't convert them into points."
+    },
+    "10": {
+      "headline": "Znojmo too strong in Bukovec homecoming",
+      "body": "The Knights brought their high-powered offense to Bukovec and pulled away 39-16. Pilsen hung tough early but couldn't keep pace with one of the division's top two teams."
+    },
+    "12": {
+      "headline": "Patriots fall at Brno in road battle",
+      "body": "A back-and-forth game at Brněnské Ivanovice ended 28-17 for the Sígrs, splitting the season series after Pilsen's Week 3 win. The result leaves both clubs near the bottom of the Snapbacks table."
+    },
+    "13": {
+      "headline": "Gladiators shut out Patriots in finale",
+      "body": "Division-leading Vysočina closed Pilsen's 2026 season with a 52-0 win at Bukovec. The Patriots finish 2-8 and sixth in the Snapbacks Liga. Vysočina advance to the playoffs."
+    }
+  },
+  "playerBios": {
+    "1": "Veteran tight end and one of the team captains. Reliable target across the middle.",
+    "11": "Starting quarterback. Has thrown for 778 yards and 10 touchdowns through 7 games.",
+    "14": "Ball-hawking safety with 2 interceptions and 42 return yards. Versatile defensive piece.",
+    "19": "Hard-hitting free safety and the team's leading tackler with 30 total stops.",
+    "23": "Reliable kicker. 2-for-2 on field goals including a 50-yarder vs Přerov.",
+    "24": "Lead running back. Team-leading 446 rushing yards and 3 touchdowns; also returns kicks.",
+    "73": "Edge rusher leading the defense with 7 sacks for 21 yards lost. Also handles kickoffs.",
+    "82": "Big-play wide receiver. Leads team with 4 receiving touchdowns despite playing in just 4 games."
+  },
+  "staff": [
+    {
+      "name": "William Levi Sturgis",
+      "role": "Head Coach",
+      "short": "WS",
+      "accent": "red"
+    },
+    {
+      "name": "Daniel Kokoška",
+      "role": "Defensive Coordinator",
+      "short": "DK",
+      "accent": "navy"
+    },
+    {
+      "name": "Libor Kurfirst",
+      "role": "Offensive Coordinator",
+      "short": "LK",
+      "accent": "navy"
+    },
+    {
+      "name": "Larry Lewis",
+      "role": "Special Teams Coordinator",
+      "short": "LL",
+      "accent": "navy"
+    },
+    {
+      "name": "Jan Hutter",
+      "role": "Team Photographer",
+      "short": "JH",
+      "accent": "navy"
+    },
+    {
+      "name": "Vladimír Duda",
+      "role": "Graphic Designer",
+      "short": "VD",
+      "accent": "navy"
+    }
+  ]
+}

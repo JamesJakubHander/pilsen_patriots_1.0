@@ -1,0 +1,11 @@
+{
+  "name": "patriots-data-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes CAAF.cz Snapbacks Liga results + standings and writes patriots-data.json for the Pilsen Patriots app.",
+  "type": "module",
+  "main": "scrape.mjs",
+  "scripts": {
+    "start": "node scrape.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -16,17 +16,17 @@ const _LIGHT = {
   outerBg: '#E8E5DE',
 };
 const _DARK = {
-  navy: '#0A1F44',
-  navyDeep: '#040D1F',
-  red: '#E22A47',
+  navy: '#1B3870',
+  navyDeep: '#0C1E50',
+  red: '#E82D4D',
   redDark: '#C8102E',
-  white: '#1A2542',
-  cream: '#0B1426',
-  ink: '#F0F4FF',
-  mute: '#8B95B5',
-  line: '#243358',
-  surface: '#101A33',
-  outerBg: '#070D1C',
+  white: '#1A2235',
+  cream: '#0E1420',
+  ink: '#DCE4F5',
+  mute: '#6E80A2',
+  line: '#202C45',
+  surface: '#131C2E',
+  outerBg: '#080D18',
 };
 const C = { ..._LIGHT };
 window.setPPTheme = (dark) => Object.assign(C, dark ? _DARK : _LIGHT);

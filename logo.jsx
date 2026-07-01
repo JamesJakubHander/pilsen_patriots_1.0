@@ -1,28 +1,71 @@
 
-// Pilsen Patriots shield logo — simple geometric SVG
-function PPLogo({ size = 56, navy = '#0A1F44', red = '#C8102E', white = '#F7F4ED' }) {
+// Pilsen Patriots logo
+// Prefers images/logo.png; falls back to inline SVG recreation.
+
+function PPLogoSVG({ size }) {
+  const blue  = '#1456C0';
+  const red   = '#C8102E';
+  const white = '#FFFFFF';
+  const shield = 'M50,97 C31,85 8,69 8,48 L8,20 Q8,6 22,6 L78,6 Q92,6 92,20 L92,48 C92,69 69,85 50,97 Z';
+
   return (
-    <svg width={size} height={size * 1.1} viewBox="0 0 100 110" style={{ display: 'block' }}>
-      {/* shield outline */}
-      <path d="M50 4 L92 16 L92 60 Q92 88 50 106 Q8 88 8 60 L8 16 Z"
-            fill={navy} stroke={white} strokeWidth="3" />
-      {/* red top band */}
-      <path d="M50 4 L92 16 L92 28 L8 28 L8 16 Z" fill={red} />
-      {/* star */}
-      <polygon points="50,12 52.4,18.6 59.5,18.6 53.7,22.8 56,29.4 50,25.2 44,29.4 46.3,22.8 40.5,18.6 47.6,18.6"
-               fill={white} />
-      {/* monogram PP */}
-      <text x="50" y="76" textAnchor="middle"
-            fontFamily="Oswald, Impact, sans-serif" fontWeight="700"
-            fontSize="38" fill={white} letterSpacing="-1">PP</text>
-      {/* bottom stripe */}
-      <rect x="8" y="92" width="84" height="3" fill={red} />
+    <svg width={size} height={size} viewBox="0 0 100 100" style={{ display: 'block' }}>
+      <defs>
+        <clipPath id={`sc-${size}`}>
+          <path d={shield} />
+        </clipPath>
+      </defs>
+
+      {/* shield white base */}
+      <path d={shield} fill={white} />
+
+      {/* blue left half */}
+      <rect x="0" y="0" width="50" height="100"
+            fill={blue} clipPath={`url(#sc-${size})`} />
+
+      {/* red right half */}
+      <rect x="50" y="0" width="50" height="100"
+            fill={red} clipPath={`url(#sc-${size})`} />
+
+      {/* white center circle */}
+      <circle cx="50" cy="46" r="32" fill={white} />
+
+      {/* PP letters — bold with white outline */}
+      <text x="50" y="61"
+            textAnchor="middle"
+            fontFamily="Impact, 'Arial Black', sans-serif"
+            fontWeight="900"
+            fontSize="38"
+            fill={blue}
+            stroke={white}
+            strokeWidth="4"
+            paintOrder="stroke fill">PP</text>
+
+      {/* smile arc inside circle */}
+      <path d="M33,72 Q50,82 67,72"
+            stroke={blue} strokeWidth="2.5" fill="none" strokeLinecap="round" />
+
+      {/* red shield border */}
+      <path d={shield} fill="none" stroke={red} strokeWidth="3" />
     </svg>
   );
 }
 
+function PPLogo({ size = 56 }) {
+  const [useSVG, setUseSVG] = React.useState(false);
+  if (useSVG) return <PPLogoSVG size={size} />;
+  return (
+    <img
+      src="images/logo.png"
+      width={size}
+      height={size}
+      style={{ display: 'block', objectFit: 'contain' }}
+      onError={() => setUseSVG(true)}
+    />
+  );
+}
+
 function PPMark({ size = 24, color = '#C8102E' }) {
-  // tiny star mark for inline use
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" style={{ display: 'inline-block', verticalAlign: 'middle' }}>
       <polygon points="12,2 14.6,9 22,9 16,13.5 18.2,21 12,16.5 5.8,21 8,13.5 2,9 9.4,9"
@@ -33,4 +76,3 @@ function PPMark({ size = 24, color = '#C8102E' }) {
 
 window.PPLogo = PPLogo;
 window.PPMark = PPMark;
-

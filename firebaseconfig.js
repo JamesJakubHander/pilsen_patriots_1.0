@@ -1,19 +1,12 @@
 // ─── Firebase configuration ───────────────────────────────────────────────
-// Replace the placeholder values below with your real Firebase project config.
-//
-// How to get these values:
-//   1. Go to https://console.firebase.google.com/
-//   2. Create a project (or open an existing one)
-//   3. Click "Add app" → Web (</>)
-//   4. Register the app — copy the firebaseConfig object shown
-//   5. In the Firebase console, go to Authentication → Sign-in method
-//      → enable "Email/Password"
+// Real Firebase project config for Pilsen Patriots
+// Project: pilson-patriots | App: Pilsen Patriots (Web)
 //
 window.PP_FIREBASE_CONFIG = {
-  apiKey:            "YOUR_API_KEY",
-  authDomain:        "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId:         "YOUR_PROJECT_ID",
-  storageBucket:     "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId:             "YOUR_APP_ID",
+    apiKey:            "AIzaSyD0fcCZPaiNX32aCkHUd6WVCKttXfeeWv8",
+    authDomain:        "pilson-patriots.firebaseapp.com",
+    projectId:         "pilson-patriots",
+    storageBucket:     "pilson-patriots.firebasestorage.app",
+    messagingSenderId: "41401738847",
+    appId:             "1:41401738847:web:f8681035489b9beaee1dea",
 };
